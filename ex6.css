@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.container {
+  display: inline-block;
+}
+.row1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+}
+
+img {
+  width: 250px;
+  height: 200px;
+  border: 5px solid black;
+}
+.pic {
+  padding: 10px;
+}
